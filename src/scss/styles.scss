@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  &::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+}
+:root {
+  --black: #1e1e1e;
+  --white: #ffffff;
+  --primary: #fdbb06;
+  --primaryHovered: #866711;
+}
+body {
+  transition: all 900ms ease-in-out;
+  background-color: #000000;
+  // overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: Raleway;
+  src: url("../assets/fonts/Raleway/Raleway-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Raleway;
+  src: url("../assets/fonts/Raleway/Raleway-ExtraBold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: Raleway;
+  src: url("../assets/fonts/Raleway/Raleway-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Raleway;
+  src: url("../assets/fonts/Raleway/Raleway-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Raleway;
+  src: url("../assets/fonts/Raleway/Raleway-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+  font-weight: 900;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Raleway;
+  font-weight: 400;
+}
+
+.loadingEffect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  div {
+    width: 200px;
+    height: 200px;
+  }
+  @keyframes rotateLogo {
+    0% {
+      transform: scale(0.7);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.7);
+    }
+  }
+
+  svg {
+    width: 100% !important;
+    height: 100% !important ;
+    margin: 0 auto;
+    animation: rotateLogo 2s ease-in-out;
+    animation-iteration-count: infinite;
+  }
+}
+.global_container {
+  max-width: 1728px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Raleway;
+  font-weight: 700;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 77px;
+  line-height: 111px;
+}
+h2 {
+  font-weight: 500;
+  font-size: 57px;
+  line-height: 78px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.primary_text {
+  color: var(--primary);
+}
+
+.wrap_text {
+  width: 70%;
+}
+
+.dark {
+  background-color: var(--black);
+  color: var(--white);
+}
+.light {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.PrimaryBtn1 {
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  background: #fbaf00;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px !important;
+  span {
+    box-shadow: 5px 10px white;
+    padding: 19px;
+    line-height: 17px;
+    background: #fbaf00;
+    border-top-right-radius: 30px !important;
+    border-bottom-left-radius: 30px !important;
+  }
+}
+.PrimaryBtn2 {
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  // padding-left: 20px;
+  // padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -0.02em;
+  background: #fff;
+  border-radius: 4px;
+  color: #251a00;
+  border-top-right-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+  box-shadow: 5px 10px #fbaf00;
+  border: 1px solid white;
+
+  width: 300px;
+  span {
+    padding: 28px 0px;
+    text-align: center;
+
+    border-top-right-radius: 30px !important;
+    border-bottom-left-radius: 30px !important;
+    font-size: 24px;
+    font-weight: 900;
+  }
+  transition: all 300ms ease-in-out;
+  &:hover {
+    background-color: #000000;
+    color: white;
+    border: 1px solid #fbaf00;
+  }
+}
+
+.beforeSticky {
+  // height: 1500px;
+  // height: 1530px;
+
+  position: relative;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+.beforeSticky2 {
+  position: relative;
+}
+
+.mobile {
+  display: none;
+}
+.desktop {
+  display: block;
+}
+@import "./MediaQueryStyles.scss";

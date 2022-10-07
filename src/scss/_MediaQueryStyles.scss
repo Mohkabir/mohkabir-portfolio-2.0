@@ -1,0 +1,85 @@
+@media (max-width: 1280px) {
+  .wrap_text {
+    width: 90%;
+  }
+  .wrap_text {
+    width: 90%;
+  }
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+
+  .sticky {
+    position: static;
+    height: initial;
+  }
+
+  .beforeSticky2 {
+    height: 100%;
+    position: initial;
+    margin-bottom: 80px;
+  }
+
+  .beforeSticky {
+    height: initial;
+    position: static;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrap_text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    line-height: 51px;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 42px;
+  }
+  h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  h4 {
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .wrap_text {
+    width: 100%;
+  }
+  .loadingEffect {
+    width: 80%;
+    div {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .beforeSticky {
+    height: initial;
+    position: relative;
+  }
+  .sticky {
+    position: static;
+    height: initial;
+  }
+
+  .beforeSticky2 {
+    height: 100%;
+    margin-bottom: 40px;
+  }
+}
