@@ -37,27 +37,29 @@
 
 @media (max-width: 768px) {
   .PrimaryBtn2 {
-    border-top-right-radius: 20px !important;
-    border-bottom-left-radius: 20px !important;
-    width: 200px;
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    width: 60%;
+    box-shadow: 5px 7px #fbaf00;
+
     span {
       text-align: center;
-      border-top-right-radius: 20px !important;
-      border-bottom-left-radius: 20px !important;
-      font-size: 20px;
-
+      border-top-right-radius: 10px !important;
+      border-bottom-left-radius: 10px !important;
+      font-size: 14px;
       a {
-        padding: 18px 0px;
+        padding: 10px 0px;
+        font-size: 14px;
       }
     }
   }
 
   h1 {
-    font-size: 40px;
-    line-height: 51px;
+    font-size: 28px;
+    line-height: 41px;
   }
   h2 {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 42px;
   }
   h3 {
@@ -72,7 +74,7 @@
 
   p {
     font-size: 14px;
-    line-height: 30px;
+    line-height: 28px;
   }
   .wrap_text {
     width: 100%;

@@ -117,8 +117,31 @@
 
 @media (max-width: 768px) {
   .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 15vh;
+    margin-bottom: 0px;
+    width: 100%;
+    // box-sizing: border-box;
+    padding: 0;
     p {
       width: 100%;
+    }
+    .hero_contents {
+      // height: 50%;
+    }
+    .head {
+      padding: 20px 0;
+      margin-bottom: 200px;
+      .darkToggle {
+        width: 60px;
+        height: 28px;
+        border-width: 3px;
+        padding: 3px 6px;
+      }
     }
   }
 
@@ -146,21 +169,12 @@
     }
   }
 
-  .head {
-    padding: 20px 0;
-    .darkToggle {
-      width: 60px;
-      height: 28px;
-      border-width: 3px;
-      padding: 3px 6px;
-    }
-  }
-
   .case_hero_contents {
     margin-bottom: 0;
   }
   .caseStudyHero {
     height: 75vh;
+    // height: 100vh;
   }
 
   .wrap_text {
