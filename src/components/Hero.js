@@ -69,15 +69,17 @@ const Hero = ({ themeToggle, issDarkMode, aboutRef }) => {
           <p>
             <span>
               I build software solutions using React and Node JS, Putting in
-              mind the trade offs between Code readability, time complexity and
+              mind the trade offs between Code readability, Time complexity and
               Space complexity.
             </span>
           </p>
           <div
             className="PrimaryBtn2"
-            onClick={() => scrollTop(aboutRef.current.offsetTop)}
+            // onClick={() => scrollTop(aboutRef.current.offsetTop)}
           >
-            <span> View My Work </span>
+            <span>
+              <a href="#work">View My Work</a>
+            </span>
           </div>
         </div>
       </div>

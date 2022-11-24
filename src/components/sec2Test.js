@@ -44,9 +44,9 @@ const Section2 = ({
 
   const section2Data = [
     {
-      title: "Forric",
+      title: "eze",
       text: "High quality ICT solutions you can trust",
-      url: "/forric",
+      url: "/eze",
       bg: case1,
     },
     {

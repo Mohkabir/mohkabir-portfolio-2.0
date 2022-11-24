@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import PageLayout from "../layout/PageLayout";
 import LandingPage from "../pages/LandingPage";
-import Nox from "../pages/Nox";
-import Forric from "../pages/Forric";
+import Nox from "../pages/UiPortfolio";
+import Eze from "../pages/Eze";
 
 const AllRoutes = ({ setIssDarkMode, issDarkMode, loading }) => {
   const themeToggle = () => {
@@ -41,17 +41,17 @@ const AllRoutes = ({ setIssDarkMode, issDarkMode, loading }) => {
         }
       />
       <Route
-        path="/forric"
+        path="/eze"
         element={
           <PageLayout
             issDarkMode={issDarkMode}
             setIssDarkMode={setIssDarkMode}
-            footerColour={{
-              background: "white",
-              color: "black",
-            }}
+            // footerColour={{
+            //   background: "white",
+            //   color: "black",
+            // }}
           >
-            <Forric themeToggle={themeToggle} issDarkMode={issDarkMode} />
+            <Eze themeToggle={themeToggle} issDarkMode={issDarkMode} />
           </PageLayout>
         }
       />

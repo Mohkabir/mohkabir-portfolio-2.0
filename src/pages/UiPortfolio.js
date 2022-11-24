@@ -12,11 +12,12 @@ const Nox = ({ themeToggle, issDarkMode }) => {
       <CaseStudyHero
         themeToggle={themeToggle}
         issDarkMode={issDarkMode}
-        title="Nox"
-        heading="Welcome to the Night"
-        heading2="is the tag line for this holistic brand"
+        url="https://www.kingsleyukeje.com/"
+        title="UI UX Portfolio"
+        heading="This is a Professional portfolio for a senior UI-UX Designer"
+        // heading2="is the tag line for this holistic brand"
       />
-      NOX
+      UI UX Portfolio
     </div>
   );
 };

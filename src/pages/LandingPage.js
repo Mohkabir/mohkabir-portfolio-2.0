@@ -64,6 +64,9 @@ const CaseOne = ({ themeToggle, issDarkMode }) => {
         aboutRef={aboutRef}
       />
       <About aboutRef={aboutRef} />
+      <h1 className="wrapper" id="work" style={{ textAlign: "center" }}>
+        Work
+      </h1>
 
       <div
         className="beforeSticky mobile"
@@ -101,58 +104,15 @@ const CaseOne = ({ themeToggle, issDarkMode }) => {
           <div ref={check}></div>
         </div>
       </div>
-
-      {/* <div className="section1">
-        <h2>
-          We work close with our clients and help them find their natural voice
-          through strong visual communication - working from the big ambition to
-          the smallest <span className="primary_text">design</span> detail.
-        </h2>
-      </div> */}
       <SkillSet />
 
       <div className="wrapper singleImage" ref={singleImgRef}>
         <div ref={check3} className="viewPort"></div>
-        <img
+        {/* <img
           src={singleImage1}
           alt=""
           style={{ width: screen === "desktop" ? `${imgWidth}px` : "100%" }}
-        />
-      </div>
-      <div className="section7 wrapper">
-        <h2>Get in touch</h2>
-
-        <p className="alert" style={{ color: "red" }}>
-          {!state.submitting && state?.errors?.length
-            ? "Error: Please Try again"
-            : ""}
-        </p>
-        <p className="alert" style={{ color: "#FDBB06" }}>
-          {!state.submitting && state?.succeeded ? "Submited Successfully" : ""}
-        </p>
-        <form
-          onSubmit={handleSubmit}
-          className={`${issDarkMode ? "inputDark" : "inputLight"}`}
-        >
-          {/* <input
-            id="email"
-            type="email"
-            name="email"
-            placeholder="your@email.com"
-          /> */}
-          <textarea name="" id="" cols="10" rows="5"></textarea>
-          <button
-            className={`submit ${state.submitting && "loader"}`}
-            type="submit"
-          >
-            {/* {!state.submitting && state?.succeeded ? (
-              <Checked />
-            ) : (
-              <ShortArrowRight color={issDarkMode ? "white" : "black"} />
-            )} */}
-            Send
-          </button>
-        </form>
+        /> */}
       </div>
     </div>
   );

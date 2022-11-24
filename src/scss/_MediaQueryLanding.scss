@@ -25,7 +25,7 @@
   .section2 {
     overflow-x: initial;
     height: initial;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     & > .card_wrapper {
       display: flex;
@@ -34,9 +34,7 @@
       & > .card {
         width: 50%;
         height: 665px;
-        border-left: 1px solid white;
         background-size: 100%;
-
         .beforeWrap {
           .wrap {
             display: flex;
@@ -44,104 +42,17 @@
             justify-content: space-between;
             height: 520px;
             margin: auto;
-          }
-        }
-      }
-    }
-  }
-
-  .brands {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: 0 auto;
-    div {
-      width: 20%;
-      width: 25%;
-      margin-bottom: 90px;
-    }
-    & > div:nth-child(4) {
-      // text-align: left;
-      padding-right: 0px;
-    }
-    & > div:nth-child(5) {
-      text-align: left;
-    }
-    & > div:nth-child(8) {
-      text-align: right;
-    }
-    & > div:nth-child(9) {
-      text-align: left;
-      padding-right: 0px;
-    }
-    & > div:nth-child(10) {
-      text-align: left;
-    }
-    & > div:nth-child(12) {
-      text-align: right;
-    }
-  }
-
-  .section6 {
-    padding: 0px;
-    width: 90%;
-    height: initial;
-
-    .box_wrapper {
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: column;
-      .box1 {
-        width: 100%;
-        border-right: 0px;
-      }
-      .box2 {
-        width: 100%;
-        .card_wrapper {
-          display: flex;
-          justify-content: space-between;
-          width: 100%;
-          flex-wrap: wrap;
-          padding-left: 0;
-          .card {
-            width: 48%;
-            padding-left: 0;
-            & > div {
+            a {
               width: 100%;
-              sup {
-                font-size: 16px;
-              }
             }
           }
-          .card:nth-child(1) {
-            width: 48%;
-            padding-left: 0;
-          }
-          .card:nth-child(2) {
-            width: 48%;
-          }
-          .card:nth-child(4) {
-            width: 48%;
-          }
         }
       }
     }
   }
+
   .singleImage {
     height: 100%;
-  }
-  .section7 {
-    margin: 60px auto;
-    h2 {
-      width: 80%;
-    }
-    form {
-      input {
-        width: 80%;
-      }
-    }
   }
 }
 
@@ -205,6 +116,36 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    p {
+      width: 100%;
+    }
+  }
+
+  .about {
+    width: 90%;
+  }
+
+  .tabs {
+    border: 2px solid white;
+    width: 100%;
+    padding: 3px;
+    li {
+      padding: 10px;
+    }
+  }
+  .tabContents {
+    padding: 20px 0;
+    margin: 20px 0;
+    gap: 10px;
+    span {
+      width: 31%;
+      width: 48%;
+      margin-bottom: 20px;
+      padding: 10px 7px;
+    }
+  }
+
   .head {
     padding: 20px 0;
     .darkToggle {
@@ -214,21 +155,12 @@
       padding: 3px 6px;
     }
   }
-  .hero {
-    // margin-bottom: 30px;
-    // margin-bottom: 0;
-  }
-  .hero_contents {
-    width: 90%;
-    margin: 0 auto;
-  }
+
   .case_hero_contents {
     margin-bottom: 0;
   }
   .caseStudyHero {
     height: 75vh;
-    // margin-bottom: 25vh;
-    // margin-bottom: 20px;
   }
 
   .wrap_text {
@@ -250,6 +182,7 @@
     height: initial;
     & > .card_wrapper {
       flex-direction: column;
+      // border: 3px solid red;
       width: 100%;
       & > .card {
         width: 100%;
@@ -268,107 +201,6 @@
     }
   }
 
-  .brands {
-    width: 90%;
-    margin: 0 auto;
-    svg {
-      width: 80%;
-    }
-    div {
-      width: 33%;
-      margin-bottom: 30px;
-    }
-    & > div:nth-child(3) {
-      text-align: right;
-    }
-    & > div:nth-child(4) {
-      text-align: left;
-    }
-    & > div:nth-child(6) {
-      text-align: right;
-    }
-    & > div:nth-child(8) {
-      text-align: left;
-    }
-    & > div:nth-child(9) {
-      text-align: right;
-      padding-right: 0px;
-    }
-  }
-  .singleImage {
-    padding: 0px 0;
-    padding-bottom: 0px;
-    height: 100%;
-    padding-top: 40px;
-  }
-  .our_team {
-    padding: 50px 0;
-    padding-top: 20px;
-    .card_wrapper {
-      flex-direction: column;
-      .unhovered {
-        background-color: rgba(0, 0, 0, 0.7);
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
-        padding-left: 0%;
-        transition: all 400ms ease-in-out;
-        padding-bottom: 20px;
-      }
-      .hovered {
-        opacity: 1;
-        transition: all 400ms ease-in-out;
-      }
-      & > div {
-        width: 100%;
-        margin-bottom: 0;
-      }
-    }
-  }
-
-  .section6 {
-    padding: 0px;
-    width: 90%;
-    .box_wrapper {
-      .box2 {
-        .card_wrapper {
-          .card {
-            width: 100%;
-            padding-left: 0;
-          }
-        }
-      }
-    }
-  }
-  .section7 {
-    margin: 10px auto;
-    h2 {
-      width: 100%;
-    }
-    form {
-      display: flex;
-      align-items: center;
-      input {
-        font-size: 28px;
-        width: 97%;
-        padding-bottom: 20px;
-      }
-      .loader {
-        svg {
-          width: 15px;
-          height: 15px;
-          border-radius: 50px;
-          padding: 2px;
-        }
-      }
-
-      .submit {
-        width: 29px;
-        height: 29px;
-        margin-top: -20px;
-      }
-    }
-  }
   footer {
     padding: 20px 0;
     padding-bottom: 30px;

@@ -1,0 +1,28 @@
+.hero_contents {
+
+  width: 95%;
+  margin-right: 0;
+  margin-left: auto;
+  .wrap_text {
+    width: 80%;
+    h1 {
+      margin: 0;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+.hero_contents {
+
+  width: 95%;
+
+  margin: auto;
+  .wrap_text {
+    width: 90%;
+
+  }
+}
+
+
+}

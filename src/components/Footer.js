@@ -15,10 +15,6 @@ const Footer = ({ issDarkMode, footerColour }) => {
           </Link>
         </div>
         <div>
-          {/* <span>
-            31 Old airport road by <br /> Thinkers Corner Emene <br />{" "}
-            Industrial Layout, <br /> Thinkers Corner, Enugu
-          </span> */}
           <p>
             <a className="tel" href="tel:+2348135123864">
               +2348135123864
@@ -36,30 +32,32 @@ const Footer = ({ issDarkMode, footerColour }) => {
           {/* <p>‎+234 916 414 7181</p> */}
         </div>
         <div className={`${issDarkMode ? "darkLink" : "lightLink"}`}>
-          <a
+          {/* <a
             target="_blank"
             href="https://www.instagram.com/zap_expression/"
             style={{ color: footerColour?.color && footerColour.color }}
           >
             Instagram
-          </a>
+          </a> */}
           <a
             target="_blank"
-            href="https://www.linkedin.com/company/zap-expression/"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/kabir-mohammed-155997214/"
             style={{ color: footerColour?.color && footerColour.color }}
           >
             LinkedIn
           </a>
           <a
             target="_blank"
-            href="https://www.facebook.com/zapexpression?_rdc=1&_rdr"
+            rel="noreferrer"
+            href="https://github.com/Mohkabir"
             style={{ color: footerColour?.color && footerColour.color }}
           >
-            Facebook
+            Github
           </a>
           <a
             target="_blank"
-            href="https://twitter.com/ZapExpression"
+            href="https://twitter.com/Kbshowkb1"
             style={{ color: footerColour?.color && footerColour.color }}
           >
             Twitter

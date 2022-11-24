@@ -34,11 +34,15 @@ const SkillSet = () => {
         <div className="tabContents">
           <span>React JS</span>
           <span>Next JS</span>
+          <span>Javascript</span>
+          <span>Typescript</span>
           <span>HTML</span>
           <span>CSS</span>
-          <span>Javascript</span>
+          <span>SCSS</span>
           <span>Tailwind css</span>
           <span>Material UI</span>
+          <span>Ant Design</span>
+          <span>Storybook</span>
           <span>WIX</span>
         </div>
       )}
@@ -47,6 +51,7 @@ const SkillSet = () => {
         <div className="tabContents">
           <span>Node JS</span>
           <span>Express JS</span>
+          <span>Typescript</span>
           <span>Mongo DB</span>
           <span>Sql</span>
         </div>

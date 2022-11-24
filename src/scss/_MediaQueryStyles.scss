@@ -36,6 +36,22 @@
 }
 
 @media (max-width: 768px) {
+  .PrimaryBtn2 {
+    border-top-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    width: 200px;
+    span {
+      text-align: center;
+      border-top-right-radius: 20px !important;
+      border-bottom-left-radius: 20px !important;
+      font-size: 20px;
+
+      a {
+        padding: 18px 0px;
+      }
+    }
+  }
+
   h1 {
     font-size: 40px;
     line-height: 51px;

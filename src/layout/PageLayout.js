@@ -11,7 +11,7 @@ const PageLayout = ({
 }) => {
   const [menuStatus, setMenuStatus] = useState(false);
   // const location = useLocation();
-//  const history = useHistory();
+  //  const history = useHistory();
   useEffect(() => {
     scrollTop();
   }, []);

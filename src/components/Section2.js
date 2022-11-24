@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import zap from "../assets/images/home-imgs/zap.png";
+import eze from "../assets/images/home-imgs/eze.png";
+
 import portfolioProject from "../assets/images/home-imgs/ui-ux-portfolio.png";
 
 import { useIsInViewport } from "../helpers/index";
@@ -12,7 +14,6 @@ const Section2 = ({
   beforeStickyRef,
   containerRef,
 }) => {
-  
   const isInViewport1 = useIsInViewport(check);
   const scrollRef = useRef();
   const viewRef1 = useRef();
@@ -21,31 +22,11 @@ const Section2 = ({
   const viewRef4 = useRef();
   const viewRef5 = useRef();
 
-  const [activeBg, setActiveBg] = useState();
-
-  const isInViewport01 = useIsInViewport(viewRef1);
-  const isInViewport02 = useIsInViewport(viewRef2);
-  const isInViewport03 = useIsInViewport(viewRef3);
-  const isInViewport04 = useIsInViewport(viewRef4);
-  const isInViewport05 = useIsInViewport(viewRef5);
-
-  useEffect(() => {
-    if (isInViewport01 === true) {
-      setActiveBg(1);
-    }
-    if (isInViewport02 === true) {
-      setActiveBg(2);
-    }
-    if (isInViewport03 === true) {
-      setActiveBg(3);
-    }
-    if (isInViewport04 === true) {
-      setActiveBg(4);
-    }
-    if (isInViewport05 === true) {
-      setActiveBg(5);
-    }
-  }, [offsetY]);
+  // const isInViewport01 = useIsInViewport(viewRef1);
+  // const isInViewport02 = useIsInViewport(viewRef2);
+  // const isInViewport03 = useIsInViewport(viewRef3);
+  // const isInViewport04 = useIsInViewport(viewRef4);
+  // const isInViewport05 = useIsInViewport(viewRef5);
 
   useEffect(() => {
     if (isInViewport1 === true) {
@@ -60,12 +41,11 @@ const Section2 = ({
         <Section2Card
           idx={1}
           issDarkMode={issDarkMode}
-          title="ZAP"
-          text="The Official Website for ZAP Expression"
-          url="/forric"
-          bg={zap}
+          title="EZE"
+          text="B2B Wholesale Marketplace for Electronics."
+          url="/eze"
+          bg={eze}
           viewRef={viewRef1}
-          activeBg={activeBg}
         />
         <Section2Card
           idx={2}
@@ -75,16 +55,14 @@ const Section2 = ({
           url="/nox"
           bg={portfolioProject}
           viewRef={viewRef2}
-          activeBg={activeBg}
         />
         <Section2Card
           issDarkMode={issDarkMode}
-          title="Compoundcapital"
-          text="Deals financing platform for Africans powered by Syndicates."
+          title="ZAP"
+          text="The Official Website for ZAP Expression"
           url="/compound-capital"
           bg={zap}
           viewRef={viewRef3}
-          activeBg={activeBg}
           idx={3}
         />
         <Section2Card
@@ -94,7 +72,6 @@ const Section2 = ({
           url="/cubana-group"
           bg={zap}
           viewRef={viewRef4}
-          activeBg={activeBg}
           idx={4}
         />
         <Section2Card
@@ -104,7 +81,6 @@ const Section2 = ({
           url="/luxistt"
           bg={zap}
           viewRef={viewRef5}
-          activeBg={activeBg}
           idx={5}
         />
       </div>

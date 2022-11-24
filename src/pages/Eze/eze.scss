@@ -1,0 +1,30 @@
+.logo {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.eze_wrap {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 40px;
+  h1,
+  h3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .eze_wrap {
+    width: 80%;
+  line-height: 30px;
+
+    div {
+      & > ul {
+        padding: 0;
+        ul{
+          padding:  0px 15px;
+        }
+      }
+    }
+  }
+}
