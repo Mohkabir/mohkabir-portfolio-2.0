@@ -3,6 +3,7 @@ import zap from "../assets/images/home-imgs/zap.png";
 import eze from "../assets/images/home-imgs/eze.png";
 
 import portfolioProject from "../assets/images/home-imgs/ui-ux-portfolio.png";
+import apems from "../assets/images/apem2 2.jpg";
 
 import { useIsInViewport } from "../helpers/index";
 import Section2Card from "./Section2Card";
@@ -48,22 +49,13 @@ const Section2 = ({
           viewRef={viewRef1}
         />
         <Section2Card
-          idx={2}
           issDarkMode={issDarkMode}
-          title="Portfolio"
-          text="Portfolio for a Senior UI-UX Designer"
-          url="/nox"
-          bg={portfolioProject}
-          viewRef={viewRef2}
-        />
-        <Section2Card
-          issDarkMode={issDarkMode}
-          title="ZAP"
-          text="The Official Website for ZAP Expression"
-          url="/compound-capital"
-          bg={zap}
+          title="APEMS"
+          text="Event Management System and Voting System"
+          url="/apems"
+          bg={apems}
           viewRef={viewRef3}
-          idx={3}
+          idx={2}
         />
         <Section2Card
           issDarkMode={issDarkMode}
@@ -72,8 +64,18 @@ const Section2 = ({
           url="/cubana-group"
           bg={zap}
           viewRef={viewRef4}
-          idx={4}
+          idx={3}
         />
+        <Section2Card
+          idx={4}
+          issDarkMode={issDarkMode}
+          title="Portfolio"
+          text="Portfolio for a Senior UI-UX Designer"
+          url="/nox"
+          bg={portfolioProject}
+          viewRef={viewRef2}
+        />
+
         <Section2Card
           issDarkMode={issDarkMode}
           title="Luxistt"

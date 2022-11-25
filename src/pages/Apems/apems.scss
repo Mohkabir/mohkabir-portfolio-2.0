@@ -1,13 +1,11 @@
 .logo {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
-  img{
-  width: 30%;
-
-  }
+  // border: 2px solid red;
+  text-align: center;
 }
 
-.eze_wrap {
+.apems_wrap {
   width: 50%;
   margin: 0 auto;
   line-height: 40px;
@@ -15,18 +13,21 @@
   h3 {
     text-align: center;
   }
+  img{
+    margin: 20px 0;
+  }
 }
 
 @media (max-width: 768px) {
-  .eze_wrap {
+  .apems_wrap {
     width: 80%;
-  line-height: 30px;
+    line-height: 30px;
 
     div {
       & > ul {
         padding: 0;
-        ul{
-          padding:  0px 15px;
+        ul {
+          padding: 0px 15px;
         }
       }
     }

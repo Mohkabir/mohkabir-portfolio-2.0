@@ -11,6 +11,7 @@ const CaseStudyHero = ({
   bg,
   color,
   url,
+  status,
 }) => {
   const dark = {
     borderColor: "white",
@@ -44,7 +45,12 @@ const CaseStudyHero = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              {title} - web
+              {title} - Status:{" "}
+              <span
+                style={{ color: status === "Production" ? "green" : "#fdbb06" }}
+              >
+                {status}
+              </span>
             </a>
           </span>
           <h1>

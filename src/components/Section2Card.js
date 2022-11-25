@@ -38,10 +38,13 @@ const Section2Card = ({
           {/* <h3 className={` ${idx === 2 && "nox"}`}>{title}</h3> */}
           <div className="img_wrap">
             <img src={bg} alt="" />
+              <Link to={url}></Link>
           </div>
 
           <p>{text}</p>
-          <Link to={url}>View Project</Link>
+          <Link to={url}>
+            View Project
+          </Link>
         </div>
 
         <div ref={viewRef}></div>

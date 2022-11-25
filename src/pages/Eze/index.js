@@ -17,6 +17,7 @@ const Eze = ({ themeToggle, issDarkMode }) => {
         title="Eze Wholesale"
         heading="B2B Wholesale Marketplace for Electronics."
         url="https://ezewholesale.com"
+        status="Production"
       />
       <div className="eze_wrap">
         <div className="logo">
@@ -36,7 +37,9 @@ const Eze = ({ themeToggle, issDarkMode }) => {
         <div>
           <h1>Role:</h1>
           <div>
-            <h3> Frontend Engineer </h3>
+            <h3>
+              Frontend Engineer: <small>Next JS & React JS</small>
+            </h3>
             <p></p>
             <ul>
               <li>Integration of Api</li>
@@ -63,6 +66,7 @@ const Eze = ({ themeToggle, issDarkMode }) => {
                 </ul>
               </li>
               <li>Testing and fixing bugs accross the platform </li>
+              <li>Internationalization: Spanish and Portugal</li>
             </ul>
           </div>
         </div>
