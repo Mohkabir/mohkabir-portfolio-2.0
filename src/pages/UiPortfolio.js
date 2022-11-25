@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import CaseStudyHero from "../components/CaseStudyHero";
 import { scrollTop } from "../helpers";
 
-const Nox = ({ themeToggle, issDarkMode }) => {
+const UIUX = ({ themeToggle, issDarkMode }) => {
   useEffect(() => {
     scrollTop();
   }, []);
@@ -60,4 +60,4 @@ const Nox = ({ themeToggle, issDarkMode }) => {
   );
 };
 
-export default Nox;
+export default UIUX;

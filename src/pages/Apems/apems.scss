@@ -3,6 +3,7 @@
   margin: 0 auto;
   // border: 2px solid red;
   text-align: center;
+
 }
 
 .apems_wrap {
@@ -13,12 +14,17 @@
   h3 {
     text-align: center;
   }
-  img{
+  img {
     margin: 20px 0;
   }
 }
 
 @media (max-width: 768px) {
+  .logo {
+  width: 45%!important;
+
+}
+
   .apems_wrap {
     width: 80%;
     line-height: 30px;

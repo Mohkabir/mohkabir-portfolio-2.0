@@ -80,7 +80,7 @@ const Section2 = ({
           issDarkMode={issDarkMode}
           title="Portfolio"
           text="Portfolio for a Senior UI-UX Designer"
-          url="/nox"
+          url="/ui-ux"
           bg={portfolioProject}
           viewRef={viewRef2}
         />

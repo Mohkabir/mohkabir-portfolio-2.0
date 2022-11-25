@@ -6,6 +6,7 @@ import Eze from "../pages/Eze";
 import Apems from "../pages/Apems";
 import Zap from "../pages/zap";
 import Xela from "../pages/Xela";
+import UIUX from "../pages/UiPortfolio";
 
 const AllRoutes = ({ setIssDarkMode, issDarkMode, loading }) => {
   const themeToggle = () => {
@@ -32,6 +33,15 @@ const AllRoutes = ({ setIssDarkMode, issDarkMode, loading }) => {
         element={
           <PageLayout issDarkMode={issDarkMode} setIssDarkMode={setIssDarkMode}>
             <Eze themeToggle={themeToggle} issDarkMode={issDarkMode} />
+          </PageLayout>
+        }
+      />
+
+      <Route
+        path="/ui-ux"
+        element={
+          <PageLayout issDarkMode={issDarkMode} setIssDarkMode={setIssDarkMode}>
+            <UIUX themeToggle={themeToggle} issDarkMode={issDarkMode} />
           </PageLayout>
         }
       />

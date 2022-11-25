@@ -1,9 +1,8 @@
 .logo {
   width: 50%;
   margin: 0 auto;
-  img{
-  width: 30%;
-
+  img {
+    width: 30%;
   }
 }
 
@@ -18,15 +17,21 @@
 }
 
 @media (max-width: 768px) {
+  .logo {
+    width: 100%;
+    img {
+      width: 100%!important;
+    }
+  }
   .eze_wrap {
     width: 80%;
-  line-height: 30px;
+    line-height: 30px;
 
     div {
       & > ul {
         padding: 0;
-        ul{
-          padding:  0px 15px;
+        ul {
+          padding: 0px 15px;
         }
       }
     }
