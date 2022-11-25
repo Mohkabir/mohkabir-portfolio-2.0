@@ -5,6 +5,7 @@ import LandingPage from "../pages/LandingPage";
 import Nox from "../pages/UiPortfolio";
 import Eze from "../pages/Eze";
 import Apems from "../pages/Apems";
+import Zap from "../pages/zap";
 
 const AllRoutes = ({ setIssDarkMode, issDarkMode, loading }) => {
   const themeToggle = () => {
@@ -55,6 +56,14 @@ const AllRoutes = ({ setIssDarkMode, issDarkMode, loading }) => {
         element={
           <PageLayout issDarkMode={issDarkMode} setIssDarkMode={setIssDarkMode}>
             <Apems themeToggle={themeToggle} issDarkMode={issDarkMode} />
+          </PageLayout>
+        }
+      />
+      <Route
+        path="/zap"
+        element={
+          <PageLayout issDarkMode={issDarkMode} setIssDarkMode={setIssDarkMode}>
+            <Zap themeToggle={themeToggle} issDarkMode={issDarkMode} />
           </PageLayout>
         }
       />

@@ -67,6 +67,15 @@ const Eze = ({ themeToggle, issDarkMode }) => {
               </li>
               <li>Testing and fixing bugs accross the platform </li>
               <li>Internationalization: Spanish and Portugal</li>
+              <span className="view_link">
+                <a
+                  href="https://ezewholesale.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Site
+                </a>
+              </span>
             </ul>
           </div>
         </div>

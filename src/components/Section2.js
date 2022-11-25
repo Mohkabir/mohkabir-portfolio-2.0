@@ -4,7 +4,7 @@ import eze from "../assets/images/home-imgs/eze.png";
 
 import portfolioProject from "../assets/images/home-imgs/ui-ux-portfolio.png";
 import apems from "../assets/images/apem2 2.jpg";
-
+import xelaImg from "../assets/images/xelaImg.png";
 import { useIsInViewport } from "../helpers/index";
 import Section2Card from "./Section2Card";
 
@@ -59,31 +59,30 @@ const Section2 = ({
         />
         <Section2Card
           issDarkMode={issDarkMode}
-          title="Cubana group"
+          title="ZAP expression"
           text="Palatial ecstatic hospitality brand"
-          url="/cubana-group"
+          url="/zap"
           bg={zap}
           viewRef={viewRef4}
           idx={3}
         />
         <Section2Card
+          issDarkMode={issDarkMode}
+          title="Luxistt"
+          text="Serenity away from home in apartments"
+          url="/luxistt"
+          bg={xelaImg}
+          viewRef={viewRef5}
           idx={4}
+        />
+        <Section2Card
+          idx={5}
           issDarkMode={issDarkMode}
           title="Portfolio"
           text="Portfolio for a Senior UI-UX Designer"
           url="/nox"
           bg={portfolioProject}
           viewRef={viewRef2}
-        />
-
-        <Section2Card
-          issDarkMode={issDarkMode}
-          title="Luxistt"
-          text="Serenity away from home in apartments"
-          url="/luxistt"
-          bg={zap}
-          viewRef={viewRef5}
-          idx={5}
         />
       </div>
     </div>
