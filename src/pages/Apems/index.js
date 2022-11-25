@@ -27,7 +27,7 @@ const Apems = ({ themeToggle, issDarkMode }) => {
           <img src={apemsLogo} alt="" />
         </div>
         <div>
-          <h1>Company:</h1>
+          <h1>Project:</h1>
           <div>
             <p>
               Africa Prudential is Transforming Africa with innovative

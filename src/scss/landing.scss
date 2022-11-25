@@ -153,20 +153,15 @@
           justify-content: space-between;
           height: 60vh;
           margin: auto;
-          // border: 1px solid white;
           .img_wrap {
             border-radius: 15px;
-            // border: 1px solid gold;
             box-shadow: 2px 2px 10px white;
             position: relative;
             img {
               height: 250px;
               border-radius: 15px;
             }
-            // .thumb_link {
-
             & > a {
-              // border: 3px solid red;
               position: absolute;
               top: 0;
               left: 0;

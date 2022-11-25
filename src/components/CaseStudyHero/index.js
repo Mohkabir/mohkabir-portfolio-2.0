@@ -39,19 +39,19 @@ const CaseStudyHero = ({
       <div className="hero_contents case_hero_contents">
         <div className="wrap_text">
           <span>
-            <a
+            {/* <a
               style={{ color: "white" }}
               href={url}
               target="_blank"
               rel="noopener noreferrer"
+            > */}
+            {title} - Status:{" "}
+            <span
+              style={{ color: status === "Production" ? "green" : "#fdbb06" }}
             >
-              {title} - Status:{" "}
-              <span
-                style={{ color: status === "Production" ? "green" : "#fdbb06" }}
-              >
-                {status}
-              </span>
-            </a>
+              {status}
+            </span>
+            {/* </a> */}
           </span>
           <h1>
             {heading} <span style={{ color: "#292929" }}>{heading2}</span>

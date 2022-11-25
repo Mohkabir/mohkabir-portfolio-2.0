@@ -60,7 +60,7 @@ const Section2 = ({
         <Section2Card
           issDarkMode={issDarkMode}
           title="ZAP expression"
-          text="Palatial ecstatic hospitality brand"
+          text="Provide tech solutions and services "
           url="/zap"
           bg={zap}
           viewRef={viewRef4}
@@ -68,9 +68,9 @@ const Section2 = ({
         />
         <Section2Card
           issDarkMode={issDarkMode}
-          title="Luxistt"
-          text="Serenity away from home in apartments"
-          url="/luxistt"
+          title="Xela"
+          text="Securely buy, share and sell ideas"
+          url="/xela"
           bg={xelaImg}
           viewRef={viewRef5}
           idx={4}

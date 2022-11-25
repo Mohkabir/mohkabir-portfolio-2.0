@@ -124,7 +124,6 @@
     margin-bottom: 15vh;
     margin-bottom: 0px;
     width: 100%;
-    // box-sizing: border-box;
     padding: 0;
     p {
       width: 100%;
@@ -134,7 +133,7 @@
     }
     .head {
       padding: 20px 0;
-      margin-bottom: 100px;
+      margin-bottom: 20px;
       .darkToggle {
         width: 60px;
         height: 28px;
@@ -142,12 +141,14 @@
         padding: 3px 6px;
       }
       svg {
-        width: 130%;
-        height: 120%;
+        width: 110%;
+        height: 100%;
       }
     }
   }
-
+  #work {
+    margin-top: 60px;
+  }
   .about {
     width: 90%;
   }
@@ -199,7 +200,6 @@
     height: initial;
     & > .card_wrapper {
       flex-direction: column;
-      // border: 3px solid red;
       width: 100%;
       & > .card {
         width: 100%;
@@ -211,6 +211,12 @@
 
             h3 {
               font-size: 24px;
+            }
+            .img_wrap {
+              img {
+                height: 180px;
+                width: 100%;
+              }
             }
           }
         }

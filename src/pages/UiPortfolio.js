@@ -8,7 +8,7 @@ const Nox = ({ themeToggle, issDarkMode }) => {
   }, []);
 
   return (
-    <div className="nox">
+    <div>
       <CaseStudyHero
         themeToggle={themeToggle}
         issDarkMode={issDarkMode}

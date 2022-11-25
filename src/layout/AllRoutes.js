@@ -2,10 +2,10 @@ import React from "react";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import PageLayout from "../layout/PageLayout";
 import LandingPage from "../pages/LandingPage";
-import Nox from "../pages/UiPortfolio";
 import Eze from "../pages/Eze";
 import Apems from "../pages/Apems";
 import Zap from "../pages/zap";
+import Xela from "../pages/Xela";
 
 const AllRoutes = ({ setIssDarkMode, issDarkMode, loading }) => {
   const themeToggle = () => {
@@ -28,21 +28,6 @@ const AllRoutes = ({ setIssDarkMode, issDarkMode, loading }) => {
         }
       />
       <Route
-        path="/nox"
-        element={
-          <PageLayout
-            issDarkMode={issDarkMode}
-            setIssDarkMode={setIssDarkMode}
-            footerColour={{
-              background: "black",
-              color: "white",
-            }}
-          >
-            <Nox themeToggle={themeToggle} issDarkMode={issDarkMode} />
-          </PageLayout>
-        }
-      />
-      <Route
         path="/eze"
         element={
           <PageLayout issDarkMode={issDarkMode} setIssDarkMode={setIssDarkMode}>
@@ -50,12 +35,19 @@ const AllRoutes = ({ setIssDarkMode, issDarkMode, loading }) => {
           </PageLayout>
         }
       />
-
       <Route
         path="/apems"
         element={
           <PageLayout issDarkMode={issDarkMode} setIssDarkMode={setIssDarkMode}>
             <Apems themeToggle={themeToggle} issDarkMode={issDarkMode} />
+          </PageLayout>
+        }
+      />
+      <Route
+        path="/xela"
+        element={
+          <PageLayout issDarkMode={issDarkMode} setIssDarkMode={setIssDarkMode}>
+            <Xela themeToggle={themeToggle} issDarkMode={issDarkMode} />
           </PageLayout>
         }
       />

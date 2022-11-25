@@ -11,6 +11,12 @@
 }
 
 @media (max-width: 768px) {
+  .head{
+    svg{
+      width: 110%;
+    }
+    padding:20px 0;
+  }
   .hero_contents {
     width: 90%;
     margin: auto;

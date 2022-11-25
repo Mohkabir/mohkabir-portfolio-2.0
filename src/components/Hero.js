@@ -68,9 +68,9 @@ const Hero = ({ themeToggle, issDarkMode, aboutRef }) => {
           </h1>
           <p>
             <span>
-              I build software solutions using React and Node JS, Putting in
-              mind the trade offs between Code readability, Time complexity and
-              Space complexity.
+              I build software solutions using React and Node JS, putting in
+              mind the trade offs between code readability, time complexity and
+              space complexity.
             </span>
           </p>
           <div
