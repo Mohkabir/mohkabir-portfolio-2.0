@@ -121,7 +121,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     margin-bottom: 15vh;
     margin-bottom: 0px;
     width: 100%;
@@ -135,12 +134,16 @@
     }
     .head {
       padding: 20px 0;
-      margin-bottom: 200px;
+      margin-bottom: 100px;
       .darkToggle {
         width: 60px;
         height: 28px;
         border-width: 3px;
         padding: 3px 6px;
+      }
+      svg {
+        width: 130%;
+        height: 120%;
       }
     }
   }
