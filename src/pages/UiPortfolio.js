@@ -12,7 +12,7 @@ const UIUX = ({ themeToggle, issDarkMode }) => {
       <CaseStudyHero
         themeToggle={themeToggle}
         issDarkMode={issDarkMode}
-        url="https://www.kingsleyukeje.com/"
+        url="https://king-portfolio2-0.vercel.app/"
         title="UI UX Portfolio"
         heading="A professional portfolio for a senior UI-UX Designer"
         status="Production"
@@ -45,7 +45,7 @@ const UIUX = ({ themeToggle, issDarkMode }) => {
               <li>Testing and bug fix</li>
               <span className="view_link">
                 <a
-                  href="https://www.kingsleyukeje.com/"
+                  href="https://king-portfolio2-0.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >

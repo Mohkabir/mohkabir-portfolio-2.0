@@ -17,7 +17,7 @@ const Xela = ({ themeToggle, issDarkMode }) => {
         issDarkMode={issDarkMode}
         title="Xela App"
         heading="Xela is a platform you can securely buy, share and sell ideas."
-        url="https://zapexpression.com/"
+        url="https://zap-seven.vercel.app/"
         status="development"
       />
       <div className="eze_wrap">

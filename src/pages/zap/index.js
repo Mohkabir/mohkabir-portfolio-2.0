@@ -17,7 +17,7 @@ const Zap = ({ themeToggle, issDarkMode }) => {
         issDarkMode={issDarkMode}
         title="Zap expression"
         heading="Zap provides tech solution (products and services) to client."
-        url="https://zapexpression.com/"
+        url="https://zap-seven.vercel.app/"
         status="Production"
       />
       <div className="eze_wrap">
@@ -51,7 +51,7 @@ const Zap = ({ themeToggle, issDarkMode }) => {
               <li>Integrated the subscribe feature with Formspree</li>
               <span className="view_link">
                 <a
-                  href="https://zapexpression.com/"
+                  href="https://zap-seven.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
